@@ -11,8 +11,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.MenuOpciones = [
-      { texto: 'Empresas', url: '#', icono: '' },
-      { texto: 'Actividades', url: '#', icono: '' },
+      { texto: 'Empresas', url: '/empresas', icono: '' },
+      { texto: 'Actividades', url: '/actividades', icono: '' },
     ];
   }
 }

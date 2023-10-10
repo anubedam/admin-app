@@ -1,0 +1,19 @@
+<!-- Aquí podríamos poner la parte común de empresas -->
+<ul class="nav row gap-2 menu-interno">
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/empresas">Consulta</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/empresas/alta/123">Alta</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/empresas/baja/123">Baja</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/empresas/modificacion/123">Modificación</a>
+  </li>
+</ul>
+<!-- Renderiza la ruta hija desde empresas -->
+<div class="mt-4">
+  <router-outlet></router-outlet>
+</div>
