@@ -1,0 +1,26 @@
+.main-container {
+  height: 100%;
+}
+
+.menu-content-container {
+  height: 100%;
+}
+
+.menu {
+  background-color: lightblue;
+  padding: 16px;
+
+  &__opcion {
+    // color: white;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.contenido {
+  background-color: white;
+  padding: 16px;
+}
