@@ -1,0 +1,21 @@
+<!-- Aquí podríamos poner la parte común de actividades -->
+<ul class="nav row gap-2 menu-interno">
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/actividades">Consulta</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/actividades/alta/123">Alta</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/actividades/baja/123">Baja</a>
+  </li>
+  <li class="nav-item col-auto">
+    <a class="nav-link" routerLink="/actividades/modificacion/123"
+      >Modificación</a
+    >
+  </li>
+</ul>
+<!-- Renderiza la ruta hija desde actividades -->
+<div class="mt-4">
+  <router-outlet></router-outlet>
+</div>
